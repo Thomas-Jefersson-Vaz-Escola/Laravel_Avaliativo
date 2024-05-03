@@ -29,21 +29,20 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <button class="nav-link" >
-            <a href="{{route('cadastrodelivro')}}">
-                Cadastro
+          <a href="{{route('cadastrodelivro')}}" class="link-success">Cadastro</a>
             </a>
         </button>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Lista</a>
+         <a href="#" class="link-body-emphasis">Lista</a></p>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Lista por gêneros</a>
+          <a href="#" class="link-success">Lista por gêneros</a>   
+
         </li>
         <li class="nav-item">
           <button class="nav-link" >
-            <a href="{{route('sobre')}}">
-                Sobre
+           <a href="{{route('sobre')}}" class="link-dark">Sobre</a>
             </a>
         </button>
         </li>
