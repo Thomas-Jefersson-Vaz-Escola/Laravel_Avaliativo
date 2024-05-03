@@ -30,11 +30,10 @@
         <li class="nav-item">
           <button class="nav-link" >
           <a href="{{route('cadastrodelivro')}}" class="link-success">Cadastro</a>
-            </a>
         </button>
         </li>
         <li class="nav-item">
-         <a href="#" class="link-body-emphasis">Lista</a></p>
+         <a href="#" class="link-body-emphasis">Lista</a>
         </li>
         <li class="nav-item">
           <a href="#" class="link-success">Lista por gêneros</a>   
@@ -43,7 +42,6 @@
         <li class="nav-item">
           <button class="nav-link" >
            <a href="{{route('sobre')}}" class="link-dark">Sobre</a>
-            </a>
         </button>
         </li>
       </ul>
