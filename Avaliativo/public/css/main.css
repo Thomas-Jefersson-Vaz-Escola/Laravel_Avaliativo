@@ -1,0 +1,25 @@
+/* .input-group-text{
+    color:black;
+}
+
+.bg-body-tertiary{
+    background-color: black !important;
+}*/
+.navbar-brand{
+    color: white;
+    text-decoration-line: none;
+} 
+.navbar-brand:hover{
+    color: white;
+    text-decoration-line: none;
+}
+.navbar-brand:visited{
+    color: white;
+    text-decoration-line: none;
+}
+.form-control::placeholder{
+    color:black
+}
+body > .card{
+    top: 0px;
+}
