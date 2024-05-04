@@ -32,7 +32,7 @@
     </div>
     
 </div>
-<div class="container mt-auto d-flex ms-0 me-0">
+<div class="container mt-auto d-flex ms-1 me-0 mb-2">
 <button type="submit" class="btn btn-dark">Cadastrar</button>
 </div>
 
