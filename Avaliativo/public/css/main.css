@@ -22,3 +22,9 @@ body > .card{
 .link-light:hover{
     color:#198754 !important;
 }
+/* Remove setas do input*/
+.form-control::-webkit-outer-spin-button,
+.form-control::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}

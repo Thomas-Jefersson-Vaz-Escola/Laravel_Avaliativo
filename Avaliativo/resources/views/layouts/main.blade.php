@@ -16,11 +16,13 @@
     <link rel="stylesheet" href="css/main.css">
 
     <title>@yield('titulo')</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
 </head>
 <body class="d-flex flex-column min-vh-100">
   <nav> 
     <nav class="navbar navbar-expand-lg bg-black">
       <div class="container-fluid">
+        <img class="d-inline-block align-text-top me-2" src="img/favicon.png" alt="Bootstrap" width="50" height="50">
         <a class="navbar-brand" href="#">Biblioteca</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -29,17 +31,17 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <button class="nav-link" >
-              <a href="{{route('cadastrodelivro')}}" class="link-light link-underline-opacity-0">Cadastro</a>
+              <a href="{{route('cadastro')}}" class="link-light link-underline-opacity-0">Cadastro</a>
             </button>
           </li>
           <li class="nav-item">
             <Button class="nav-link">
-              <a href="#" class="link-light link-underline-opacity-0 link-underline-opacity-0-hover">Lista</a>
+              <a href="{{route('lista')}}" class="link-light link-underline-opacity-0 link-underline-opacity-0-hover">Lista</a>
             </Button>
           </li>
           <li class="nav-item">
             <Button class="nav-link">
-              <a href="{{route('sobre')}}" class="link-light link-underline-opacity-0 link-underline-opacity-0-hover">Lista por gêneros</a>   
+              <a href="#" class="link-light link-underline-opacity-0 link-underline-opacity-0-hover">Lista por gêneros</a>   
             </Button>
           </li>
           <li class="nav-item">

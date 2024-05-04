@@ -5,10 +5,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('cadastrodelivro');
-})->name('cadastrodelivro');
+})->name('cadastro');
 Route::get('/sobre', function () {
     return view('sobre');
 })->name('sobre');
+Route::get('/lista', function () {
+    return view('listalivros');
+})->name('lista');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
