@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-lg bg-black">
       <div class="container-fluid">
         <img class="d-inline-block align-text-top me-2" src="img/favicon.png" alt="Bootstrap" width="50" height="50">
-        <a class="navbar-brand" href="#">Biblioteca</a>
+        <a class="navbar-brand" href="{{route('cadastro')}}">Biblioteca</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
