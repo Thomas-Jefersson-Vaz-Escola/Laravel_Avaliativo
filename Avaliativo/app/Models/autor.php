@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class autor extends Model
 {
     use HasFactory;
+    protected $fillable = [
+        'nome_autor',
+    ];
 }
